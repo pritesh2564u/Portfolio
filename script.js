@@ -3,6 +3,7 @@ const body = document.querySelector("body"),
     mtoggle = document.querySelector(".darklight"),
     sidebarOpen = document.querySelector(".sidebarOpen"),
     sidebarClose = document.querySelector(".sidebarClose");
+    navLinks = document.querySelectorAll(".nav-links li");
 
 mtoggle.addEventListener("click", ()=>{
     mtoggle.classList.toggle("active");
@@ -40,4 +41,11 @@ body.addEventListener('click', (event) => {
       }
     }
   });
+
+
+navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        nav.classList.remove("active");
+    });
+});
   
