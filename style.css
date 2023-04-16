@@ -38,7 +38,7 @@ body{
 body.dark{
     --nav-color: rgb(40, 40, 40);
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    --body-color: rgb(26, 26, 26);
+    --body-color: #18191A;
     --logo-color: #18191A;
     --highlight-color: white;
     --cr-color: #e4e9e7;
