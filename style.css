@@ -42,7 +42,7 @@ body.dark{
     --logo-color: #18191A;
     --highlight-color: white;
     --cr-color: #e4e9e7;
-    --card-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    --card-box-shadow: 0 5px 10px rgba(40, 40, 40, 0.5);
     --img-color: rgb(160, 44, 160);
     --text-color: #e4e9e7;
     --fbox-shadow: 0 -5px 10px #242526;
